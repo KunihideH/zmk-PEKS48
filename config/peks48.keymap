@@ -52,19 +52,19 @@
 
         layer_1 {
             bindings = <
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3     &kp NUMBER_4     &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9  &kp NUMBER_0  &trans
-&trans  &trans        &trans        &kp JP_LBRACKET  &kp JP_RBRACKET  &trans          &trans        &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6  &kp JP_COLON  &kp JP_UNDERSCORE
-&trans  &trans        &trans        &kp JP_LPAREN    &kp JP_RPAREN    &trans          &trans        &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3  &kp PIPE      &trans
-&trans  &trans        &trans        &trans           &trans           &trans          &trans        &kp NUMBER_0  &kp JP_DQUOTE  &trans        &trans        &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2       &kp NUMBER_3   &kp NUMBER_4   &kp NUMBER_5    &kp NUMBER_6      &kp NUMBER_7       &kp NUMBER_8  &kp NUMBER_9          &kp NUMBER_0           &trans
+&trans  &kp EXCL      &kp DOUBLE_QUOTES  &kp POUND      &kp DOLLAR     &kp PRCNT       &kp AMPERSAND     &kp GRAVE          &kp SQT       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE
+&trans  &trans        &trans             &kp JP_LPAREN  &kp JP_RPAREN  &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp AT        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE
+&trans  &trans        &trans             &trans         &trans         &trans          &trans            &trans             &kp TILDE     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
             >;
         };
 
         layer_2 {
             bindings = <
-&trans  &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH  &kp DOLLAR  &kp PRCNT       &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS    &kp UNDERSCORE   &trans
-&trans  &kp GRAVE        &kp TILDE          &trans    &trans      &kp C_VOL_UP    &kp C_VOL_DN      &kp DOUBLE_QUOTES     &kp SINGLE_QUOTE       &kp JP_PLUS  &kp JP_ASTERISK  &trans
-&trans  &trans           &trans             &trans    &trans      &trans          &trans            &trans                &trans                 &trans       &trans           &trans
-&trans  &trans           &trans             &trans    &trans      &trans          &trans            &trans                &trans                 &trans       &trans           &trans
+&trans  &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH  &kp DOLLAR  &kp PRCNT       &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp UP_ARROW    &kp MINUS        &kp UNDERSCORE   &trans
+&trans  &kp GRAVE        &kp TILDE          &trans    &trans      &kp C_VOL_DN    &kp C_VOL_UP      &kp LEFT_ARROW        &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp JP_ASTERISK  &trans
+&trans  &trans           &trans             &trans    &trans      &trans          &trans            &trans                &trans          &trans           &trans           &trans
+&trans  &trans           &trans             &trans    &trans      &trans          &trans            &trans                &trans          &trans           &trans           &trans
             >;
         };
 
